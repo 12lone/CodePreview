@@ -1,5 +1,5 @@
 <h2 align="center">代码在线预览器</h2>
-<p>这是一款在线或者可以在本地运行的代码预览器，可以在线预览解析HTML和Markdown代码。</p>
+<p>这是一款在线或者可以在本地运行的代码预览器，当然了，你还可以把它部署到服务器和对象存储中。它可以在线预览解析HTML和Markdown代码。</p>
 <p>This is an online or locally operable code previewer that can parse and preview HTML and Markdown code online.</p>
 <P>这是编辑器的预览界面，你可以在下方选择需要预览的代码类型，支持了HTML和Markdown代码渲染，选择完成之后点击右边的“转换”按钮：</P>
 <img src="https://s21.ax1x.com/2025/03/08/pEtwDiQ.png">
