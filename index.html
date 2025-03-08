@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>代码预览器</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="editor">
+            <textarea id="code-input" placeholder="在这里输入HTML或Markdown代码..."></textarea>
+            <div class="controls">
+                <div class="mode-select">
+                    <label>
+                        <input type="radio" name="mode" value="html" checked>
+                        HTML
+                    </label>
+                    <label>
+                        <input type="radio" name="mode" value="markdown">
+                        Markdown
+                    </label>
+                </div>
+                <button id="convert-btn">转换</button>
+            </div>
+        </div>
+        <div class="preview" id="preview"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="css/script.js"></script>
+</body>
+</html>
